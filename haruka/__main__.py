@@ -30,7 +30,7 @@ Ask my commands to [them](t.me/askplugins)
 
 Special thanks to [this channel](t.me/checkedplugins) for helping me.
 
- Add me to a group by clicking [here](http://t.me/CHECKEDPLUGINSMANAGERBOT?startgroup=true).
+ Add me to a group by clicking [here](http://t.me/CheckedPlugins_bot?startgroup=true).
 """
 
 
