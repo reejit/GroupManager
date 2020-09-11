@@ -65,7 +65,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     try:
         chat.kick_member(user_id)
         #bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
-        message.reply_text(tld(chat.id, "Banned!"))
+        message.reply_text(tld(chat.id, "Fucked out of the group!"))
         return log
 
     except BadRequest as excp:
@@ -250,7 +250,7 @@ def banme(bot: Bot, update: Update):
 
     res = update.effective_chat.kick_member(user_id)  
     if res:
-        update.effective_message.reply_text("No problem, banned.")
+        update.effective_message.reply_text("No problem, fucked him out of the group.")
         log = "<b>{}:</b>" \
               "\n#BANME" \
               "\n<b>User:</b> {}" \
